@@ -6,5 +6,5 @@ before_script:
 env:
   global:
   - REPO="git@github.com:g0v/closelyheld-gitbook"
-  - secure: dCn5gWVkwa8adfWHfS+z+6o7VyCjXC7pHnyaa+kLWZaZuphKZtloWkfKfW2CdBzImwIPfkCUaEGGKZ49ZddfwYREcy19D6dDWGBy4pBMu5zlBtDbx/JdmdX2hxgOmzCPNSDjLVocxkZyucM9CHFii83ZIHdD7dkNmPCVn3jk0SY=
+  - secure: h6YrS+Q4sQrG3OXmaFlbtVu0dmH2S66lXZ3Rl68t3JjWOgUl9DQ/tRgTC87VH9Jee/+iHigYasIEpNUgzNs5MegWCMQkRYKCCU399s+PYL6RG5tMQuF212kf6o+F6S6f3S2dcEAgrCQVvusyUDJ1BiGgWwhFiAV2xG5Espp/yJk=
 after_success: ".travis/after_success.sh"
